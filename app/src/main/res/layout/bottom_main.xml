@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/title_back">
+
+    </View>
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="首页"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb1_common_frame_drawable_selector"
+            android:textColor="@drawable/rb1_common_frametext_drawable_selector"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb_invest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="投资"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb2_common_frame_drawable_selector"
+            android:textColor="@drawable/rb1_common_frametext_drawable_selector"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的资产"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb3_common_frame_drawable_selector"
+            android:textColor="@drawable/rb3_common_frametext_drawable_selector"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rb_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="更多"
+            android:gravity="center"
+            android:drawableTop="@drawable/rb4_common_frame_drawable_selector"
+            android:textColor="@drawable/rb1_common_frametext_drawable_selector"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    </LinearLayout>
